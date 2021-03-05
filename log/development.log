@@ -1,0 +1,46 @@
+Started GET "/" for ::1 at 2021-02-26 14:21:22 -0800
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rpham/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.3.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rpham/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.3.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.8ms | Allocations: 488)
+Completed 200 OK in 39ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 3309)
+
+
+Started GET "/v1/things" for ::1 at 2021-02-26 14:29:07 -0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by V1::ThingsController#index as HTML
+  Parameters: {"defailts"=>{"format"=>"json"}}
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 456)
+
+
+Started GET "/v1/things" for ::1 at 2021-03-04 16:40:50 -0800
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by V1::ThingsController#index as HTML
+  Parameters: {"defailts"=>{"format"=>"json"}}
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 446)
+
+
+Started GET "/" for ::1 at 2021-03-04 17:05:36 -0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+  Rendered static/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 1372)
+Completed 200 OK in 206ms (Views: 177.8ms | ActiveRecord: 0.0ms | Allocations: 15353)
+
+
+Started GET "/" for ::1 at 2021-03-04 17:54:02 -0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+  Rendered static/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1135)
+Completed 200 OK in 30ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 3822)
+
+
+Started GET "/" for ::1 at 2021-03-04 18:00:47 -0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+  Rendered static/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1135)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 3807)
+
+

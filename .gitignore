@@ -1,0 +1,13 @@
+# Dotenv config
+.env\.*
+tmp/*
+tmp/**/*
+node_modules/
+.DS_Store
+
+.rvmrc
+.rbenv-version
+.ruby-version
+.ruby-gemset
+.bundle
+
